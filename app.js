@@ -14,6 +14,7 @@ firstReq.addEventListener('load', function(){
     for(let planet of data.results){
         console.log(planet.name);
     };
+    
     });
     secondReq.addEventListener('error', function(){
         console.log('ERROR!')
